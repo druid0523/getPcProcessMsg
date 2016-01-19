@@ -6,7 +6,7 @@
 - win 下安装 Wireshark，WinPcap（安装Wireshark会自动安装）
 - linux 下没试过，谢谢 :)
 
-使用方式： 
+使用方式：  
 1. 修改 sniffer_packet.py 文件112行的 tshark 命令行字符串，修改 `-i` 参数的值（在命令行中执行 `tshark -D` 查看可选网卡）
 2. 运行 sniffer_packet.py 进行抓包及获取端口
 3. `Ctrl + c` 退出 sniffer_packet.py 脚本
