@@ -1,0 +1,1 @@
+tshark -i 4 -T fields -E header=y -E separator=, -E quote=d -e frame.time_epoch -e ip.src -e ip.dst -e frame.len -e tcp.len -e udp.length -e tcp.srcport -e tcp.dstport -e udp.srcport -e udp.dstport
