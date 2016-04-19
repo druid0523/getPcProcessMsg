@@ -1,4 +1,4 @@
-# PythonScript
+# getPcProcessMsg
 
 统计 PC 端进程信息
 
