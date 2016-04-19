@@ -16,8 +16,8 @@
 
 注1：运行脚本时加 `-h` 参数查看使用帮助  
 注2：运行过程中会生成  
-- $process_name_network.log 进程流量日志
-- $process_name_port_list.log 第一行为抓包开始时间，第二行开始为进程使用的端口列表
+- ${process_name}_network.log 进程流量日志
+- ${process_name}_port_list.log 第一行为抓包开始时间，第二行开始为进程使用的端口列表
 - package.csv tshark 抓包结果
 
 注3：使用的 tshark 抓包命令  
